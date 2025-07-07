@@ -4,7 +4,7 @@ import NoteForm from './components/NoteForm';
 import NoteList from './components/NoteList';
 import SearchBar from './components/SearchBar';
 
-const API_URL = 'http://localhost:5000/notes';
+const API_URL = 'https://simple-notes-app-k2o5.onrender.com/notes';
 
 function App() {
   const [notes, setNotes] = useState([]);
